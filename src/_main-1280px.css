@@ -1,0 +1,49 @@
+@media screen and (min-width: 1280px) {   
+    .left-container {
+        padding-right: 60px;
+    }
+
+    .right-container {
+        padding: 40px 0;
+    }
+    
+    /* left part of website start */
+    
+    .sub-title {
+        font-size: 1rem;
+    }
+    
+    .title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    .description {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+    
+    .action-button {
+        font-size: 1.2rem;
+        padding: 12px 20px;
+    }
+    
+    /* left part of website end */
+    
+    /* right part of website start */
+    
+    .img-wrapper {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .content-title {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+    
+    .content-description {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}

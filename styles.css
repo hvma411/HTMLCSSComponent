@@ -1,0 +1,5 @@
+@import './src/_reset.css';
+@import './src/_main-1024px.css';
+@import './src/_main-1280px.css';
+@import './src/_main-1366px.css';
+@import './src/_main-1920px.css';
