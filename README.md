@@ -5,7 +5,7 @@
 * [Run it](#run-it)
 
 ### Project info:
-It is just simple HTML & CSS component. There are no mobile styles so it will not work in mobile view. This component is created only for min 1024px view width.
+It is just simple HTML & CSS component. There are no mobile styles so it will not work in mobile view. This component is created a few screen sizes from min 1024px view width.
 
 ### Technologies:
  * HTML
