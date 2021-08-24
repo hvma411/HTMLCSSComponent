@@ -2,6 +2,18 @@
     .right-container {
         padding: 0;
     }
+
+    .circle-quarter-background {
+        bottom: -40%;
+        left: -15%;
+    }
+
+    .main-triangle-background {
+        top: -55%;
+        right: -30%;
+        transform: rotate(45deg);
+    }
+    
     
     /* right part of website start */
     
@@ -42,6 +54,11 @@
 @media screen and (min-width: 1366px) and (min-height: 768px) {
     .right-container {
         padding: 20px 0;
+    }
+
+    .circle-quarter-background {
+        bottom: -22%;
+        left: -15%;
     }
 
     .img-wrapper {

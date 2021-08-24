@@ -27,6 +27,25 @@
         font-size: 1.2rem;
         padding: 12px 20px;
     }
+
+    .circle-quarter-background {
+        bottom: -15%;
+        left: -12%;
+    }
+
+    .triangle-background {
+        right: 35%;
+        top: 30%;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid transparent;
+        border-left: 120px solid rgba(225,226,244, 0.35);
+    }
+
+    .main-triangle-background {
+        top: -45%;
+        right: -25%;
+        transform: rotate(45deg);
+    }
     
     /* left part of website end */
     

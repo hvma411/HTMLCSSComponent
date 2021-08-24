@@ -5,6 +5,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
         padding: 40px 60px;
         background: rgb(233,235,247);
         background: -moz-linear-gradient(167deg, rgba(233,235,247,1) 0%, rgba(255,255,255,1) 100%);
@@ -15,6 +16,7 @@
     
     .left-container,
     .right-container {
+        z-index: 1;
         width: 50%;
         height: 100%;
         display: flex;
@@ -32,6 +34,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
     
     /* left part of website start */
@@ -71,6 +74,55 @@
         border: none;
         padding: 10px 16px;
         cursor: pointer;
+    }
+
+    .circle-quarter-background {
+        width: 50%;
+        position: absolute;
+        bottom: -3%;
+        left: -10%;
+        border-radius: 100% 0 0 0;
+        background: rgb(225,226,244);
+        background: -moz-linear-gradient(155deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(155deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(155deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e1e2f4",endColorstr="#ffffff",GradientType=1);
+    }
+
+    .triangle-background {
+        z-index: -1;
+        width: 0; 
+        height: 0; 
+        position: absolute;
+        right: 35%;
+        top: 35%;
+        border-top: 70px solid transparent;
+        border-bottom: 70px solid transparent;
+        border-left: 100px solid rgba(225,226,244, 0.35);
+        transform: rotate(-35deg);
+    }
+
+    .main-triangle-background {
+        width: 50%;
+        position: absolute;
+        top: -35%;
+        right: -25%;
+        transform: rotate(45deg);
+    }
+
+    .circle-quarter-background::after,
+    .main-triangle-background::after {
+        display: block;
+        content: "";
+        padding-bottom: 100%;
+    }
+
+    .main-triangle-background {
+        background: rgb(225,226,244);
+        background: -moz-linear-gradient(90deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(90deg, rgba(225,226,244,1) 0%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e1e2f4",endColorstr="#ffffff",GradientType=1);
     }
     
     /* left part of website end */

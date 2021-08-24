@@ -25,6 +25,26 @@
     .action-button {
         font-size: 1.3rem;
     }
+
+    .circle-quarter-background {
+        bottom: -25%;
+        left: -10%;
+    }
+
+    .triangle-background {
+        right: 38%;
+        top: 35%;
+        border-top: 120px solid transparent;
+        border-bottom: 120px solid transparent;
+        border-left: 150px solid rgba(225,226,244, 0.35);
+        transform: rotate(-38deg);
+    }
+
+    .main-triangle-background {
+        top: -50%;
+        right: -25%;
+        transform: rotate(45deg);
+    }
     
     /* left part of website end */
     
